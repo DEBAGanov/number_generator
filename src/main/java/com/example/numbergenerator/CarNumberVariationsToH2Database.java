@@ -26,6 +26,7 @@ public class CarNumberVariationsToH2Database {
                             PreparedStatement insertStatement = connection.prepareStatement(insertQuery);
                             insertStatement.setString(1, carNumber);
                             insertStatement.executeUpdate();
+
                         }
                     }
                 }
